@@ -1,0 +1,18 @@
+$ git add Jenkinsfile
+$ git commit Jenkinsfile -m "Añadido Jenkinsfile al repositorio."
+$ git commit -m "Añadido Jenkinsfile al repositorio."
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+$ git push gogs-origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 598 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+Username for 'http://192.168.1.209:10080': operador
+Password for 'http://operador@192.168.1.209:10080':
+To http://192.168.1.209:10080/operador/gs-maven.git
+   c2bf553..ec7fc8e  master -> master
+$
